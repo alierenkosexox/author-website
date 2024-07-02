@@ -1,0 +1,225 @@
+* {
+
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+    font-size: large;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: whitesmoke;
+    padding-top: 37px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: darkolivegreen;
+    border: darkolivegreen dashed;
+    border-radius: 20px;
+}
+
+section {
+    padding: 8%;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 10px 8%;
+    background-color: rgb(118, 106, 94, 0.8);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.links {
+    border: darkolivegreen dashed;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: inline-flex;
+    gap: 70px;
+    padding: 45px 45px;
+    margin-right: 50px;
+}
+
+a {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkolivegreen;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+/* Hero */
+
+.hero {
+    margin: 0;
+    background-size: 100%;
+    background: url("https://i.neredekal.com/i/neredekal/75/760x380/647150021a4189ffbf497e90");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+
+.c1 {
+
+    background-color: #CEC9C3;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);;
+}
+
+.c1 p {
+    background-color: #CEC9C3;
+    text-shadow: 10px 10px 30px gray;
+    font-size: 30px;
+    text-align: left;
+}
+
+.c1 h1 {
+    background-color: #CEC9C3;
+    padding-top: 15px;
+    font-size: 32px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.c2 {
+
+    margin: 5%;
+    background-color: #CEC9C3;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+footer {
+    background-color: #9fac8a;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: darkslategrey;
+
+}
+
+a:hover {
+    color: palegoldenrod;
+    text-decoration: underline;
+}
+
+/* INFO PAGE */
+.i1 {
+    p {
+        text-indent: 30px;
+    }
+
+    justify-content: center;
+    text-align: justify;
+    margin: 5%;
+    background-color: #CEC9C3;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.i1 p {
+    background-color: #CEC9C3;
+}
+
+.i1 h1 {
+    background-color: #CEC9C3;
+}
+
+.infohero {
+    margin: 0;
+    background-size: 100%;
+    background: url("https://i.neredekal.com/i/neredekal/75/760x380/647150021a4189ffbf497e90");
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+
+.i2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
+    margin: 10%;
+    background-color: #CEC9C3;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.hain {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    background-color: #CEC9C3;
+}
+.info-poet{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    gap: 0;
+    background-color: inherit;
+    justify-content: center;
+
+
+    border-radius: 10px;
+    padding: 3%;
+
+}
+
+/* WORKS PAGE */
+
+.works-hero {
+    margin: 0;
+    background-size: 100%;
+    background: url("https://i.neredekal.com/i/neredekal/75/760x380/647150021a4189ffbf497e90");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+.works-list{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    background-color: #CEC9C3;
+    border-radius: 15px;
+    padding: 25px
+}
+.works-list li {
+    background-color: #CEC9C3;
+}
+.works-hero h1 {
+    background-color: #CEC9C3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
